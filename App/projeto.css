@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FCDF8C;
+    font-size: 18px;
+    font-family: 'Open Sans', Calibri, 'Trebuchet MS', sans-serif;
+    color: #424242;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    gap: 48px;
+
+}
+
+h2 {
+    font-size: 32px;
+}
+
+button {
+    font-size: 18px;
+    color: #424242;
+    background-color: transparent;
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #F2D06D;
+}
+
+.SplineViewer {
+    margin-top: 3rem;
+    width: 100%;
+    height: 500px;
+}
+
+.flexSection {
+    display: flex;
+    gap: 24px;
+}
+
+.sectionPart {
+    width: 50%;
+}
+
+fieldset {
+    border: 0;
+    padding: 8px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+legend {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.image1 {
+    width: 50%;
+    border: 2px solid #424242;
+}
+
+.blackStrip {
+    background-color: #424242;
+    color: white;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding-right: 5%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.codeField {
+
+    width: 90%;
+    margin: auto;
+}
+
+pre {
+    color: #F2D06D;
+}
+
+.recursos {
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+.linkRecursos {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.links {
+    background-color: #424242;
+    border: solid 2px #212121;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 40px;
+}
+
+.links:hover {
+    background-color: #212121;
+    color: #F2D06D;
+}
